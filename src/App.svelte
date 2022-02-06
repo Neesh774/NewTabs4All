@@ -9,11 +9,13 @@
   let textLight = "#73DACA";
   let background = "#1A1B2C";
   let backgroundLight = "#202633";
-  let bookmarks = [{
-        name: "New Bookmark",
-        icon: "ri-bookmark-fill",
-        url: "https://google.com",
-      }];
+  let bookmarks = [
+    {
+      name: "New Bookmark",
+      icon: "ri-bookmark-fill",
+      url: "https://google.com",
+    },
+  ];
 
   function createFile() {
     let newFile = indexString.replace("USERNAME", username);
@@ -47,6 +49,16 @@
 
 <svelte:head>
   <title>Create your New Tab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#1A1B2C" />
+  <meta
+    name="apple-mobile-web-app-status-bar-style"
+    content="black-translucent"
+  />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="title" content="New Tab Page Generator" />
+  <meta name="description" content="Generate new tab pages with ease!" />
+  <link rel="icon" type="image/png" href="./public/favicon.png" />
 </svelte:head>
 
 <div class="page">
@@ -56,7 +68,8 @@
     to give everyone something to brag to their friends about :)
   </p>
   <p>
-    Follow the steps below, and pretty soon you'll be able to get an awesome new tab page!
+    Follow the steps below, and pretty soon you'll be able to get an awesome new
+    tab page!
   </p>
   <p>Built by @Neesh774 on Twitter, @cheesyneesh on TikTok</p>
   <h2>Step One: Page Content</h2>
@@ -90,15 +103,32 @@
   <Bookmarks bind:bookmarks />
   <h2>Step Four: Download Your File 📂</h2>
   <button on:click={createFile}>Download ZIP</button>
-  <p>After extracting your files, navigate to <code>index.html</code> in the new folder. Open it, make sure that the page looks correct, and then copy the URL in the address bar at the top.</p>
+  <p>
+    After extracting your files, navigate to <code>index.html</code> in the new folder.
+    Open it, make sure that the page looks correct, and then copy the URL in the
+    address bar at the top.
+  </p>
   <h2>Step Five: Download the Extension</h2>
-  <p>You'll have to download a Chrome Extension to actually redirect to this page when you make a new tab. Download it <a href="https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=en-US">here</a></p>
+  <p>
+    You'll have to download a Chrome Extension to actually redirect to this page
+    when you make a new tab. Download it <a
+      href="https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=en-US"
+      >here</a
+    >
+  </p>
   <h2>Step Six: Redirection 🔗</h2>
   <p>
-    Now that you have the extension installed, you just have to go to the extension settings, paste the URL from Step 4 into the <code>Redirect URL</code> field, and click <code>Save</code>.
+    Now that you have the extension installed, you just have to go to the
+    extension settings, paste the URL from Step 4 into the <code
+      >Redirect URL</code
+    >
+    field, and click <code>Save</code>.
   </p>
   <h2>Step Seven: Gloat</h2>
-  <p>Now you're ready to go! If you have any questions or problems, comment on the Tiktok about this website, or DM me on Discord at ツCheesyNeeshツ#5076</p>
+  <p>
+    Now you're ready to go! If you have any questions or problems, comment on
+    the Tiktok about this website, or DM me on Discord at ツCheesyNeeshツ#5076
+  </p>
 </div>
 
 <style>
