@@ -85,14 +85,14 @@
     <span>Background Light</span>
     <input type="color" id="backgroundImage" bind:value={backgroundLight} />
   </div>
-  <h2>Step Three: Bookmarks</h2>
+  <h2>Step Three: Bookmarks 🔖</h2>
   <Bookmarks bind:bookmarks />
-  <h2>Step Four: Download Your File</h2>
+  <h2>Step Four: Download Your File 📂</h2>
   <button on:click={createFile}>Download ZIP</button>
   <p>After extracting your files, navigate to <code>index.html</code> in the new folder. Open it, make sure that the page looks correct, and then copy the URL in the address bar at the top.</p>
   <h2>Step Five: Download the Extension</h2>
   <p>You'll have to download a Chrome Extension to actually redirect to this page when you make a new tab. Download it <a href="https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=en-US">here</a></p>
-  <h2>Step Six: Redirection</h2>
+  <h2>Step Six: Redirection 🔗</h2>
   <p>
     Now that you have the extension installed, you just have to go to the extension settings, paste the URL from Step 4 into the <code>Redirect URL</code> field, and click <code>Save</code>.
   </p>
