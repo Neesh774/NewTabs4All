@@ -66,7 +66,7 @@
   }
   table {
     border-collapse: collapse;
-    width: 50%;
+    width: 100%;
   }
   td input,
   td button {

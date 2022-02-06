@@ -195,19 +195,19 @@
   .page {
     margin: 2rem 5rem;
     padding-bottom: 2rem;
-    max-width: 60%;
+    max-width: 50%;
   }
   input[type="color"] {
     opacity: 0;
     display: block;
-    width: 32px;
+    width: 60px;
     height: 32px;
     border: none;
     cursor: pointer;
   }
   .color-picker-wrapper {
     float: left;
-    width: 32px;
+    width: 60px;
     height: 32px;
   }
   .text-header {
@@ -217,13 +217,13 @@
     margin-top: 2rem;
   }
   #username {
-    width: 30%;
+    width: 60%;
   }
   p,
   span,
   div,
   input {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .download {
     background-color: #11ac2b;
@@ -260,5 +260,13 @@
   }
   .demo span {
     font-size: 3rem;
+  }
+  @media (max-width: 1000px) {
+    .page {
+      margin: 2rem 1rem;
+    }
+    .demo {
+      display: none;
+    }
   }
 </style>
