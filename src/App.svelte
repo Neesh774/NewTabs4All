@@ -58,6 +58,7 @@
   <p>
     Follow the steps below, and pretty soon you'll be able to get an awesome new tab page!
   </p>
+  <p>Built by @Neesh774 on Twitter, @cheesyneesh on TikTok</p>
   <h2>Step One: Page Content</h2>
   <div class="input">
     <span>Your Name</span>
@@ -65,7 +66,7 @@
       type="text"
       id="username"
       bind:value={username}
-      placeholder="Neesh"
+      placeholder="Rick Astley"
     />
   </div>
   <h2>Step Two: Colors 🎨</h2>
