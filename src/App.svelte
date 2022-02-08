@@ -49,16 +49,6 @@
 
 <svelte:head>
   <title>Create your New Tab</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#1A1B2C" />
-  <meta
-    name="apple-mobile-web-app-status-bar-style"
-    content="black-translucent"
-  />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="title" content="New Tab Page Generator" />
-  <meta name="description" content="Generate new tab pages with ease!" />
-  <link rel="icon" type="image/png" href="./public/favicon.png" />
 </svelte:head>
 
 <div class="page">
