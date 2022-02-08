@@ -37,6 +37,7 @@
       <tr>
         <th>Name</th>
         <th>URL</th>
+        <th id="icon">Icon</th>
         <th>Delete</th>
       </tr>
     </thead>
@@ -45,6 +46,7 @@
         <td class="name"><input maxlength="20" bind:value={bookmark.name} /></td
         >
         <td class="url"><input type="url" bind:value={bookmark.url} /></td>
+        <td class="icon"><input bind:value={bookmark.icon}/></td>
         <td
           ><button class="delete" on:click={() => removeBookmark(i)}
             >Remove</button
@@ -56,9 +58,6 @@
 </div>
 
 <style>
-  i {
-    font-size: 2rem;
-  }
   th,
   td {
     border: 1px solid black;

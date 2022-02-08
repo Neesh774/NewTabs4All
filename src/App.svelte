@@ -130,6 +130,7 @@
   </div>
   <div class="step">
     <h2>Step Three: Bookmarks 🔖</h2>
+    <i>Find icon strings <a href="https://remixicon.com/" target="_blank">here</a>, don't change the icon column if you want to keep the bookmark icon. To copy the icon string, press on an icon and copy the text that starts with "ri-".</i>
     <Bookmarks bind:bookmarks />
   </div>
   <div class="step">
