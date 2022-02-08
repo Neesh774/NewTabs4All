@@ -137,6 +137,7 @@
     <button
       class="download"
       on:click={createFile}
+      data-splitbee-event="Create New Tab"
       disabled={username.length < 1}>Download ZIP</button
     >
     <p>
