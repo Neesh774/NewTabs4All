@@ -81,7 +81,7 @@ const printCards = () => {
 
     // Style the Card Element
     currentCard.classList.add("card");
-    currentCard.href = card.link;
+    currentCard.href = card.url;
 
     // Style the Icon
     currentCardIcon.classList.add("card__icon");
